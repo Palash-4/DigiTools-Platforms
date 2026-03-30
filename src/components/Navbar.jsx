@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm px-6 flex justify-between">
+        <div className="navbar bg-base-100 shadow-sm px-6 flex justify-around">
             <h1 className="text-3xl text-[#801ff8] font-bold">DigiTools</h1>
 
             <div className="hidden lg:flex gap-6 font-medium text-gray-800">

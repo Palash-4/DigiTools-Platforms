@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance in minutes.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI suggestions"
+    ],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Generator",
+    "description": "Build a stunning developer portfolio instantly.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Custom domains",
+      "Responsive design",
+      "SEO optimized",
+      "Drag & drop builder"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 3,
+    "name": "Cover Letter AI",
+    "description": "Generate personalized cover letters using AI.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI writing",
+      "Multiple formats",
+      "Job-specific tailoring"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Invoice Generator",
+    "description": "Create and manage invoices easily for your business.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Custom branding",
+      "Auto calculations",
+      "PDF export",
+      "Client management"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Kit",
+    "description": "Design posts and banners for social media platforms.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "500+ templates",
+      "Instagram & Facebook sizes",
+      "Easy editing"
+    ],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Code Assistant",
+    "description": "Boost productivity with AI-powered coding help.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Code suggestions",
+      "Bug fixing",
+      "Multi-language support",
+      "Real-time help"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 7,
+    "name": "Presentation Maker",
+    "description": "Create beautiful slides with AI-powered design.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Smart layouts",
+      "Export to PPT/PDF",
+      "Custom themes"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 8,
+    "name": "Task Manager Pro",
+    "description": "Organize tasks and boost productivity efficiently.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Task tracking",
+      "Reminders",
+      "Team collaboration",
+      "Analytics dashboard"
+    ],
+    "icon": "/src/assets/products/shopping-cart.png"
+  }
+]

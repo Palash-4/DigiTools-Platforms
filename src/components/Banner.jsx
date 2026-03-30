@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse gap-10">
 
           <img
-            src="/src/assets/banner.png"
+            src="./src/assets/banner.png"
             className="w-full max-w-md rounded-xl shadow-xl"
             alt="banner"
           />

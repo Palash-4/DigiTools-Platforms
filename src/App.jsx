@@ -36,7 +36,6 @@ function App() {
  
       <CardHeading></CardHeading>
 
-      {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center bg-transparent">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 font-semibold" aria-label="Products" onClick={()=> setActiveTab("product")} defaultChecked />
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 font-semibold" aria-label={`Cart(${carts.length})`} onClick={()=> setActiveTab("cart")} />

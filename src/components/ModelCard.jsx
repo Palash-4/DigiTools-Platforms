@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { Check } from "lucide-react";
 
 
 const ModelCard = ({model,carts,setCarts}) => {
@@ -56,8 +57,7 @@ const ModelCard = ({model,carts,setCarts}) => {
                                     key={i}
                                     className="flex items-center gap-2 text-sm text-gray-600"
                                 >
-                                    <span className="text-green-500">*</span>
-                                    {f}
+                                    <Check className="text-green-500 w-4 h-4" /> {f}
                                 </li>
                             ))}
                         </ul>

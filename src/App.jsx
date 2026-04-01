@@ -6,6 +6,8 @@ import Cart from './components/Cart'
 import Footer from './components/Footer'
 import Models from './components/Models'
 import Navbar from './components/Navbar'
+import Steps from './components/Steps'
+import Pricing from './components/Pricing'
 
 
 const getModels = async () => {
@@ -46,6 +48,10 @@ function App() {
       
 
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
+
+      <Steps></Steps>
+
+      <Pricing></Pricing>
 
       <Footer></Footer>
     </>

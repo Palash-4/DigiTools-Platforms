@@ -26,7 +26,7 @@ const Banner = () => {
                 Explore Products
               </button>
               <button className="btn border border-[#801ff8] text-[#801ff8] bg-transparent rounded-full px-6">
-                 Watch Demo
+                <img src="/src/assets/Play.png" alt="" /> Watch Demo
               </button>
             </div>
 

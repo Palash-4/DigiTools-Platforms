@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 const ModelCard = ({model,carts,setCarts}) => {
@@ -7,7 +8,16 @@ const ModelCard = ({model,carts,setCarts}) => {
 
     const handleBuyNow=()=>{
         setIsBuyNow(true)
+
+        const isFound=carts.find(item=>item.id===model.id)
+
+        if(isFound){
+            toast.error("Item Is already added!")
+            return
+        }
+
         setCarts([...carts,model])
+        toast.success("Item is added Successfully!")
     }
 
     return (
@@ -51,7 +61,7 @@ const ModelCard = ({model,carts,setCarts}) => {
                                 </li>
                             ))}
                         </ul>
-                        <button onClick={handleBuyNow} className="w-full mt-6 py-3 rounded-full text-white font-medium bg-gradient-to-r from-purple-600 to-pink-500 hover:opacity-90 transition">
+                        <button onClick={handleBuyNow} className="w-full mt-6 py-3 rounded-full text-white font-medium bg-gradient-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-90 transition">
                             {isBuyNow ? "Added to Cart":"Buy Now"}
                         </button>
 

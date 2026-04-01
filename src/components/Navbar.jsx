@@ -25,7 +25,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <button className="btn btn-ghost text-sm">Login</button>
-                <button className="btn bg-[#801ff8] text-white rounded-full px-5 text-xl">
+                <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-5 text-xl">
                     Get Started
                 </button>
 

@@ -1,4 +1,6 @@
 import React from "react";
+import banner from "../assets/banner.png";
+import play from "../assets/Play.png";
 
 const Banner = () => {
   return (
@@ -7,7 +9,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse gap-10">
 
           <img
-            src="./src/assets/banner.png"
+            src={banner}
             className="w-full max-w-md rounded-xl shadow-xl"
             alt="banner"
           />
@@ -26,7 +28,7 @@ const Banner = () => {
                 Explore Products
               </button>
               <button className="btn border border-[#801ff8] text-[#801ff8] bg-transparent rounded-full px-6">
-                <img src="/src/assets/Play.png" alt="" /> Watch Demo
+                <img src={play} alt="" /> Watch Demo
               </button>
             </div>
 

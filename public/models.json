@@ -13,7 +13,7 @@
       "Export to PDF",
       "AI suggestions"
     ],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "SEO optimized",
       "Drag & drop builder"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "Multiple formats",
       "Job-specific tailoring"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -60,7 +60,7 @@
       "PDF export",
       "Client management"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 5,
@@ -75,7 +75,7 @@
       "Instagram & Facebook sizes",
       "Easy editing"
     ],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "/products/social-media.png"
   },
   {
     "id": 6,
@@ -91,7 +91,7 @@
       "Multi-language support",
       "Real-time help"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 7,
@@ -106,7 +106,7 @@
       "Export to PPT/PDF",
       "Custom themes"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 8,
@@ -122,6 +122,22 @@
       "Team collaboration",
       "Analytics dashboard"
     ],
-    "icon": "/src/assets/products/shopping-cart.png"
-  }
+    "icon": "/products/shopping-cart.png"
+  },
+{
+  "id": 9,
+  "name": "Email Marketing Suite",
+  "description": "Create and manage powerful email campaigns easily.",
+  "price": 15.99,
+  "period": "monthly",
+  "tag": "Popular",
+  "tagType": "popular",
+  "features": [
+    "Email templates",
+    "Automation workflows",
+    "Analytics reports",
+    "Subscriber management"
+  ],
+  "icon": "/products/writing_2327400 1.png"
+}
 ]

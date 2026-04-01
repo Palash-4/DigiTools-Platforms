@@ -29,7 +29,7 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar carts={carts} ></Navbar>
       <Banner></Banner>
  
       <CardHeading></CardHeading>
